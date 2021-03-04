@@ -10,10 +10,9 @@ class EasyHttp {
       .catch(err => reject(err));
     });
   }
-}
 
   //Make HTTP POST Request
-  /**post(url, data){
+  post(url, data){
     return new Promise((resolve, reject) => {
       fetch(url, {
         method: 'POST',
@@ -27,4 +26,4 @@ class EasyHttp {
       .catch(err => reject(err));
     });
   }
-}*/
+}
